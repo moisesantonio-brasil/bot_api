@@ -1,0 +1,198 @@
+.parte1{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    border-radius: 15px 15px 0px 0px;
+    background-color: silver;
+}
+.parte2{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    background-color: gray;
+    border-radius: 0px 0px 15px 15px;
+}
+.parte3{
+    width: 340px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: gainsboro;
+    padding: 4px;
+    word-break: break-all;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.mandar_r{
+    float: right;
+    margin: 10px;
+}
+.mandar_r2{
+    display: none;
+}
+
+
+
+#espaço_comentario{
+    width: 250px;
+    margin: 10px;
+    outline: none;
+}
+#espaço_comentario2{
+    width: 250px;
+    margin: 10px;
+    outline: none;
+    display: none;
+}
+#conversa_comentario{
+    width: 270px;
+    height: 30px;
+    text-align: center;
+    color: red;
+    margin: 10px;
+    outline: none;
+}
+
+.div-criado{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px 20px 0px 20px;
+    border: 2px solid;
+}
+.palavra_css{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 8px;
+    margin: 5px;
+    text-align: justify;
+    
+}
+
+
+
+body{
+    margin: 20px;
+}
+.base_central{
+    display: flex;
+    height: 200px;
+
+}
+img{
+    width: 400px;
+    height: 600px;
+}
+.botoes_a,.botoes_p,.botoes_r{
+    font-size: 12px;
+    margin: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botoes_a{
+    background-color: lime;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+.botoes_r{
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+.botoes_r2{
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+.botoes_p{
+    background-color: lightslategray;
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+/*especial*/
+div[name="name-Leanne Graham"]{
+    background-color: rgb(91, 120, 91);
+    font-weight: bold;
+}
+div[name="name-Ervin Howell"]{
+    background-color: rgb(197, 113, 98);
+    font-weight: bold;
+}
+div[name="name-Clementine Bauch"]{
+    background-color: rgb(235, 160, 113);
+    font-weight: bold;
+}
+div[name="name-Sra. Dennis Schulist"]{
+    background-color: rgb(113, 38, 140);
+    font-weight: bold;
+}
+div[name="name-Kurtis Weissnat"]{
+    background-color: rgb(42, 48, 42);
+    font-weight: bold;
+}
+div[name="name-Nicholas Runolfsdottir V"]{
+    background-color: rgb(58, 95, 158);
+    font-weight: bold;
+}
+div[name="name-Glenna Reichert"]{
+    background-color: rgb(200, 75, 141);
+    font-weight: bold;
+}
+div[name="name-Clementina DuBuque"]{
+    background-color: rgb(201, 219, 62);
+    font-weight: bold;
+}
+div[name="name-Patricia Lebsack"]{
+    background-color: rgb(106, 84, 43);
+    font-weight: bold;
+}
+div[name="name-Chelsey Dietrich"]{
+    background-color: rgb(176, 48, 99);
+    font-weight: bold;
+}
+
+.btn_açao{
+    width: auto;
+    height: 20px;
+    font-size: 10px;
+    margin-left: 8px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: limegreen;
+    font-weight: bold;
+}
+
+.btn_novo{
+    margin: 10px;
+    font-size: 10px;
+    width: auto;
+    font-weight: bold;
+}
+.nada{
+    display: none;
+}
+.aparecer{
+    display:block;
+    margin-left: 5px;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration:none;
+font-style: normal;
+color: black;
+
+}
