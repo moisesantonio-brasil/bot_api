@@ -1,7 +1,11 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
 import { useState } from"react";
-
+import Img1 from './assets/girl-01.jpg';import Img6 from './assets/man-01.jpg'
+import Img2 from './assets/girl-02.jpg';import Img7 from './assets/man-02.jpg'
+import Img3 from './assets/girl-03.jpg';import Img8 from './assets/man-03.jpg'
+import Img4 from './assets/girl-04.jpg';import Img9 from './assets/man-04.jpg'
+import Img5 from './assets/girl-05.jpg';import Img10 from './assets/man-05.jpg'
 import "./App.css";
 
 
@@ -127,7 +131,10 @@ function mandando2(){
   let h2 = document.querySelector("h2")
   h2.textContent = "Conversando com "+name
 
+  let img = document.querySelectorAll("img")
   setContarResposta(contarresposta + 1)
+
+  console.log(name)
 
   const fetchPergunta = () =>{
     fetch("https://jsonplaceholder.typicode.com/comments/"+contarresposta)
@@ -158,51 +165,64 @@ let segundoinput = document.querySelector("#espaço_comentario")
      
     n_base_resposta.setAttribute("name","name-Leanne Graham");
     parte2.setAttribute("name","name-Leanne Graham");
+    img[5].style = "display:block"
+img[5].setAttribute("class","imagem_usuario")
     break;
     case "Ervin Howell":
 
       n_base_resposta.setAttribute("name","name-Ervin Howell");
       parte2.setAttribute("name","name-Ervin Howell");
+      img[6].style = "display:block"
+img[6].setAttribute("class","imagem_usuario")
     break;
     case "Clementine Bauch":
       n_base_resposta.setAttribute("name","name-Clementine Bauch");
       parte2.setAttribute("name","name-Clementine Bauch");
-
+      img[1].style = "display:block"
+      img[1].setAttribute("class","imagem_usuario")
     break;
     case "Chelsey Dietrich":
       n_base_resposta.setAttribute("name","name-Chelsey Dietrich");
       parte2.setAttribute("name","name-Chelsey Dietrich");
-     
+      img[2].style = "display:block"
+      img[2].setAttribute("class","imagem_usuario")
     break;
     case "Patricia Lebsack":
       n_base_resposta.setAttribute("name","name-Patricia Lebsack");
       parte2.setAttribute("name","name-Patricia Lebsack");
- 
+      img[3].style = "display:block"
+      img[3].setAttribute("class","imagem_usuario")
     break;
     case "Mrs. Dennis Schulist":
       n_base_resposta.setAttribute("name","name-Sra. Dennis Schulist");
       parte2.setAttribute("name","name-Sra. Dennis Schulist");
-
+      img[7].style = "display:block"
+      img[7].setAttribute("class","imagem_usuario")
     break;
     case "Kurtis Weissnat":
       n_base_resposta.setAttribute("name","name-Kurtis Weissnat");
       parte2.setAttribute("name","name-Kurtis Weissnat");
-
+      img[8].style = "display:block"
+      img[8].setAttribute("class","imagem_usuario")
     break;
     case "Nicholas Runolfsdottir V":
       n_base_resposta.setAttribute("name","name-Nicholas Runolfsdottir V");
       parte2.setAttribute("name","name-Nicholas Runolfsdottir V");
-
+      img[9].style = "display:block"
+      img[9].setAttribute("class","imagem_usuario")
     break;
     case "Glenna Reichert":
       n_base_resposta.setAttribute("name","name-Glenna Reichert");
       parte2.setAttribute("name","name-Glenna Reichert");
- 
+      img[3].style = "display:block"
+      img[3].setAttribute("class","imagem_usuario")
     break;
     case "Clementina DuBuque":
 
       n_base_resposta.setAttribute("name","name-Clementina DuBuque");
       parte2.setAttribute("name","name-Clementina DuBuque");
+      img[4].style = "display:block"
+      img[4].setAttribute("class","imagem_usuario")
     break;
   default:
     console.log("o valor de "+name+"não é compatível")
@@ -249,6 +269,13 @@ let segundoinput = document.querySelector("#espaço_comentario")
 
 return (<>
 <h2></h2>
+
+<img src={Img1} alt="" /><img src={Img2} alt="" />
+<img src={Img3} alt="" /><img src={Img4} alt="" />
+<img src={Img5} alt="" /><img src={Img6} alt="" />
+<img src={Img7} alt="" /><img src={Img8} alt="" />
+<img src={Img9} alt="" /><img src={Img10} alt="" />
+
   <div className="parte1">
 <input type="text" name="" id="espaço_comentario" />
 <input type="text" name="" id="espaço_comentario2" />

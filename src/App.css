@@ -196,3 +196,13 @@ font-style: normal;
 color: black;
 
 }
+img{
+    display: none;
+}
+.imagem_usuario{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 200px;
+    border-radius: 50%;
+    height: 250px;
+}
